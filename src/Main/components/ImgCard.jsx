@@ -3,9 +3,9 @@ import "./Components.scss";
 
 export default function ImgCard({ image, name, specie }) {
   return (
-    <div className="card-img">
+    <div className="card">
       <img src={image} alt={`${name}`} />
-      <div className="info">
+      <div className="bio">
         <h3>{name}</h3>
         <p>{specie}</p>
       </div>

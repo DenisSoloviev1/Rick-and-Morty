@@ -8,7 +8,7 @@ export default function Header() {
       <header>
         <img src="/images/icon.png" alt="icon" />
         <div className="nav-bar">
-          <NavLink to="/">Characters</NavLink>
+          <NavLink to="/characters">Characters</NavLink>
           <NavLink to="/locations">Locations</NavLink>
           <NavLink to="/episodes">Episodes</NavLink>
         </div>
